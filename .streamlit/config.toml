@@ -1,0 +1,23 @@
+# Light and dark themes. Users switch with the ⋮ menu → Settings → Theme.
+# By default the app follows the computer's own light/dark setting.
+
+[theme.light]
+primaryColor = "#1E3A8A"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F5FA"
+textColor = "#111827"
+
+[theme.dark]
+primaryColor = "#5B82EC"
+backgroundColor = "#0E1424"
+secondaryBackgroundColor = "#182036"
+textColor = "#E6EAF5"
+
+[server]
+maxUploadSize = 50
+
+[client]
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false
