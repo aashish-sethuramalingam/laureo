@@ -1,0 +1,19 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets: never upload
+.streamlit/secrets.toml
+.env
+
+# App output and local data
+data/
+generated_certificates/
+outbox/
+
+# System and tool files
+.DS_Store
+.claude/
+.agents/
